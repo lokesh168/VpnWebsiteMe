@@ -125,7 +125,7 @@ select {
 
 /* Utility Classes */
 .w-25 {
-    width: 25%;
+    width: 25px;
 }
 .w-50 {
     width: 50px;
@@ -354,4 +354,16 @@ body {
 .stats {
     display: flex;
     padding-inline: 9%;
+}
+
+.second-hero-component-list li {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.second-hero-component-list li p {
+    margin-left: 12px;
 }
