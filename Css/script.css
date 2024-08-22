@@ -367,3 +367,8 @@ body {
 .second-hero-component-list li p {
     margin-left: 12px;
 }
+
+/* Centered Heading */
+.heading-centered {
+    text-align: center;
+}
