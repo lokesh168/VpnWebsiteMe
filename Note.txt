@@ -1,0 +1,40 @@
+
+first commit - Html complete
+
+second commit - Css complete
+
+Skeleton layout
+
+Website Layout
+
+1. Header - Navbar [nav]
+
+** Main **
+2. Hero component - section
+
+3. Data component - section
+
+4. Hero component 2 - section
+
+5. Your plans component - section
+
+6. Vpn Maps - section
+
+7. Trusted Partners - section
+
+8. Testimonials Carousels
+
+9. Call To Action Button - section
+
+** Main ends**
+10. Footer - section
+
+Buttons
+    a. primary Button
+    b. secondary Button
+
+
+
+** CSS **
+
+1. Navbar
