@@ -39,6 +39,10 @@ Buttons
 
 1. Navbar - done
 
+2. Hamburger Menu
+    1. At 768 the site breaks so put the Hamburger menu at this point. - done
+    2. At click of the Hamburger menu you get a modal.
+
 2. Hero section
     a. Code Duplication In Buttons - Solved
     b. Made the hero component and navbar - All Done

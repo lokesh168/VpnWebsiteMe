@@ -19,12 +19,12 @@
     <!-- Nav -->
     <header class="primary-header">
         <div class="container">
-            <nav class="nav-wrapper">
+            <div class="nav-wrapper">
                 <div class="nav-logo">
                     <img src="/Assets/Images/Logo.svg" alt="Vpn" />
                     <a href="">LasLes<span>VPN</span></a>
                 </div>
-                <div>
+                <nav class="primary-navigation">
                     <ul class="nav-list" role="list">
                         <li><a href="">About</a></li>
                         <li><a href="">Features</a></li>
@@ -32,19 +32,31 @@
                         <li><a href="">Testimonails</a></li>
                         <li><a href="">Help</a></li>
                     </ul>
-                </div>
-                <div>
+                </nav>
+                <nav id="primary-navigation-menu" class="">
+                    <ul class="nav-list" role="list">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Testimonails</a></li>
+                        <li><a href="">Help</a></li>
+                    </ul>
+                </nav>
+                <div class="button-navigation">
                     <a class="margin-horizontal">Sign In</a>
                     <button class="button | primary-button">Sign Up</button>
                 </div>
-            </nav>
+                <div class="icon-hamburger">
+                    <img src="/Assets/Images/icon-hamburger.svg" alt="icon-hamburger">
+                </div>
+            </div>
         </div>
     </header>
 
     <!-- Main -->
     <main>
         <section class="padding-block-900">
-            <div class="container margin-vertical">
+            <div class="container">
                 <div class="even-columns">
                     <div>
                         <h1 class="fs-primary-heading">
@@ -69,20 +81,22 @@
 
         <!-- Stats -->
         <section class="cta | padding-block-700 bg-accent-400 text-neutral-100">
-            <div>
-                <img src="/Assets/Images/user.svg" alt="user" />
-                <p>90+</p>
-                <p>Users</p>
-            </div>
-            <div>
-                <img src="/Assets/Images/user.svg" alt="user" />
-                <p>30+</p>
-                <p>Locations</p>
-            </div>
-            <div>
-                <img src="/Assets/Images/user.svg" alt="user" />
-                <p>50+</p>
-                <p>Servers</p>
+            <div class="container">
+                <div>
+                    <img src="/Assets/Images/user.svg" alt="user" />
+                    <p>90+</p>
+                    <p>Users</p>
+                </div>
+                <div>
+                    <img src="/Assets/Images/user.svg" alt="user" />
+                    <p>30+</p>
+                    <p>Locations</p>
+                </div>
+                <div>
+                    <img src="/Assets/Images/user.svg" alt="user" />
+                    <p>50+</p>
+                    <p>Servers</p>
+                </div>
             </div>
         </section>
 
