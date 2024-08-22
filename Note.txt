@@ -37,4 +37,8 @@ Buttons
 
 ** CSS **
 
-1. Navbar
+1. Navbar - done
+
+2. Hero section
+    a. Code Duplication In Buttons - Solved
+    b. Made the hero component and navbar - All Done

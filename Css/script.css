@@ -6,6 +6,10 @@
 
     --clr-accent-400: #f53855;
 
+    --clr-button-accent-400: #f53838;
+
+    --clr-bg-400: #ffffff;
+
     /* Font */
     --fw-regular: 400;
     --fw-medium: 500;
@@ -24,6 +28,12 @@
     --size-900: 5rem;
 
     /* Spacing */
+
+    /* Line Height */
+    --line-height-100: 0.875rem;
+    --line-height-200: 1rem;
+    --line-height-300: 1.5rem;
+    --line-height-400: 2rem;
 }
 
 /* Box sizing rules */
@@ -112,6 +122,9 @@ select {
 }
 
 /* Utility Classes */
+.w-100 {
+    width: 100%;
+}
 
 .padding-block-900 {
     padding-block: var(--size-900);
@@ -124,8 +137,31 @@ select {
     margin-inline: 0 var(--size-300);
 }
 
-.margin-vertical {
+.margin-vertical-300 {
+    margin: var(--size-300) 0;
+}
+.margin-vertical-400 {
+    margin: var(--size-400) 0;
+}
+
+.margin-vertical-700 {
     margin: var(--size-700) 0;
+}
+
+.line-height-100 {
+    line-height: var(--line-height-100);
+}
+
+.line-height-200 {
+    line-height: var(--line-height-200);
+}
+
+.line-height-300 {
+    line-height: var(--line-height-300);
+}
+
+.line-height-400 {
+    line-height: var(--line-height-400);
 }
 
 .container {
@@ -157,14 +193,23 @@ body {
 }
 
 /* Buttons */
-.primary-button {
+.button {
     border: 2px solid var(--clr-accent-400);
     cursor: pointer;
-    border-radius: 100vmax;
+    text-decoration: none;
     padding: 0.45em 1.5em;
+    font-weight: var(--fw-medium);
+}
+
+.primary-button {
+    border-radius: 100vmax;
     background-color: transparent;
     color: var(--clr-accent-400);
-    font-weight: var(--fw-medium);
+}
+.secondary-button {
+    border-radius: 4px;
+    color: var(--clr-bg-400);
+    background-color: var(--clr-button-accent-400);
 }
 
 /* Navigation */
@@ -202,4 +247,21 @@ body {
     text-decoration: none;
     padding-inline: 22px;
     color: var(--clr-secondary-400);
+}
+
+/* Hero section */
+
+.fs-primary-heading {
+    font-size: var(--size-600);
+    font-weight: var(--fw-medium);
+}
+
+.fs-primary-heading span {
+    font-size: var(--size-600);
+    font-weight: var(--fw-bold);
+}
+
+.fs-sub-heading {
+    color: var(--clr-secondary-400);
+    font-size: var(--size-400);
 }
