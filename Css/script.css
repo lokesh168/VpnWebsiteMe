@@ -10,6 +10,8 @@
 
     --clr-bg-400: #ffffff;
 
+    --clr-accent-200: #eeeff2;
+
     /* Font */
     --fw-regular: 400;
     --fw-medium: 500;
@@ -122,8 +124,27 @@ select {
 }
 
 /* Utility Classes */
+.w-25 {
+    width: 25%;
+}
+.w-50 {
+    width: 50px;
+}
+
+.w-75 {
+    width: 75%;
+}
+
 .w-100 {
     width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.border-left-200 {
+    border-left: 2px solid var(--clr-accent-200);
 }
 
 .padding-block-900 {
@@ -133,13 +154,18 @@ select {
     padding-block: var(--size-700);
 }
 
-.margin-horizontal {
-    margin-inline: 0 var(--size-300);
+.padding-inline-200 {
+    padding: 0 var(--size-200);
+}
+
+.margin-horizontal-300 {
+    margin: 0 var(--size-300);
 }
 
 .margin-vertical-300 {
     margin: var(--size-300) 0;
 }
+
 .margin-vertical-400 {
     margin: var(--size-400) 0;
 }
@@ -297,6 +323,7 @@ body {
         margin: 12px 0;
     }
 }
+
 /* Hero section */
 
 .fs-primary-heading {
@@ -312,4 +339,19 @@ body {
 .fs-sub-heading {
     color: var(--clr-secondary-400);
     font-size: var(--size-400);
+}
+
+/* CTA One */
+
+.call-to-action-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.stats {
+    display: flex;
+    padding-inline: 9%;
 }
