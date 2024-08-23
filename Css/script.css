@@ -12,6 +12,8 @@
 
     --clr-accent-200: #eeeff2;
 
+    --clr-accent-100: #dddddd;
+
     /* Font */
     --fw-regular: 400;
     --fw-medium: 500;
@@ -409,7 +411,7 @@ body {
 }
 
 .border-full {
-    border: 2px solid var(--clr-secondary-400);
+    border: 2px solid var(--clr-accent-100);
     border-radius: 12px;
 }
 
