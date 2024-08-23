@@ -226,6 +226,11 @@ select {
     font-weight: var(--fw-medium);
 }
 
+.fs-primary-heading-300 {
+    font-size: var(--size-300);
+    font-weight: var(--fw-medium);
+}
+
 .container {
     --max-width: 1110px;
     --padding: 1rem;
@@ -434,4 +439,25 @@ body {
 
 .call_to_action {
     max-width: 55%;
+}
+
+/* Footer */
+
+.footer-nav li {
+    margin-top: 12px;
+}
+
+.footer-nav a {
+    color: var(--clr-secondary-400);
+    text-decoration: none;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin-inline: 6px;
+    color: var(--clr-accent-400);
+}
+
+.footer-nav a:is(:hover) {
+    color: var(--clr-accent-400);
 }
