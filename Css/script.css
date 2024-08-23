@@ -154,6 +154,10 @@ select {
     justify-content: space-between;
 }
 
+.flex-align-center {
+    align-items: center;
+}
+
 .center-content {
     display: flex;
     align-items: center;
@@ -179,6 +183,10 @@ select {
 
 .padding-inline-200 {
     padding: 0 var(--size-200);
+}
+
+.padding-inline-800 {
+    padding-inline: var(--size-800);
 }
 
 .margin-horizontal-300 {
@@ -420,4 +428,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* CTA */
+
+.call_to_action {
+    max-width: 55%;
 }
