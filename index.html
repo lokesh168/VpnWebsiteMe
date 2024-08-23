@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/blaze-slider@latest/dist/blaze.css">
     <link rel="stylesheet" href="/Css/script.css" />
 </head>
 
@@ -273,12 +274,14 @@
 
         <!-- Brand Logo -->
         <section>
-            <div class="container flex-justify-between">
-                <img class="w-75 margin-horizontal-300" src="Images/netflix.svg" alt="amazon" />
-                <img class="w-75 margin-horizontal-300" src="Images/reddit.svg" alt="amazon" />
-                <img class="w-75 margin-horizontal-300" src="Images/spotify.svg" alt="amazon" />
-                <img class="w-75 margin-horizontal-300" src="Images/discord.svg" alt="amazon" />
-                <img class="w-75 margin-horizontal-300" src="Images/netflix.svg" alt="amazon" />
+            <div class="container">
+                <div class="flex-justify-between">
+                    <img class="w-75 margin-horizontal-300" src="Images/netflix.svg" alt="amazon" />
+                    <img class="w-75 margin-horizontal-300" src="Images/reddit.svg" alt="amazon" />
+                    <img class="w-75 margin-horizontal-300" src="Images/spotify.svg" alt="amazon" />
+                    <img class="w-75 margin-horizontal-300" src="Images/discord.svg" alt="amazon" />
+                    <img class="w-75 margin-horizontal-300" src="Images/netflix.svg" alt="amazon" />
+                </div>
             </div>
         </section>
 
@@ -286,21 +289,29 @@
         <section class="padding-block-900">
             <div class="container heading-centered">
                 <h2 class="fs-primary-heading">Trusted by Thousands of Happy Customer</h2>
-                <p class="fs-sub-heading line-height-400">These are the stories of our customers who have joined us
+                <p class="fs-sub-heading line-height-400">These are the stories of our customers who have
+                    joined us
                     with great pleasure when using this crazy feature.
                 </p>
             </div>
         </section>
 
         <!-- Carousel -->
-        <section class="padding-block-900">
+        <!-- <section class="padding-block-900">
             <div class="container">
-                <div class="card-carousel">
-                    <div>
-                        <div>
-                            <img src="" alt="" />
-                            <h4>Robert Name</h4>
-                            <p>4.5</p>
+                <div class="card-carousel flex-justify-between">
+                    <div class="padding-block-200 padding-inline-400 border-full margin-horizontal-300">
+                        <div class="flex-container margin-vertical-400">
+                            <div>
+                                <img class="w-50" src="/Images/person.svg" alt="person" />
+                            </div>
+                            <div>
+                                <h4 class="fs-primary-heading-400">Robert Name</h4>
+                                <p class="fs-sub-heading">Warsaw, Poland</p>
+                            </div>
+                            <div>
+                                <p>4.5 <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i></span></p>
+                            </div>
                         </div>
                         <div>
                             <p>
@@ -311,11 +322,18 @@
                             </p>
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <img src="" alt="" />
-                            <h4>Robert Name</h4>
-                            <p>4.5</p>
+                    <div class="padding-block-200 padding-inline-400 border-full margin-horizontal-300">
+                        <div class="flex-container margin-vertical-400">
+                            <div>
+                                <img class="w-50" src="/Images/person.svg" alt="person" />
+                            </div>
+                            <div>
+                                <h4 class="fs-primary-heading-400">Robert Name</h4>
+                                <p class="fs-sub-heading">Warsaw, Poland</p>
+                            </div>
+                            <div>
+                                <p>4.5 <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i></span></p>
+                            </div>
                         </div>
                         <div>
                             <p>
@@ -326,11 +344,18 @@
                             </p>
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <img src="" alt="" />
-                            <h4>Robert Name</h4>
-                            <p>4.5</p>
+                    <div class="padding-block-200 padding-inline-400 border-full margin-horizontal-300">
+                        <div class="flex-container margin-vertical-400">
+                            <div>
+                                <img class="w-50" src="/Images/person.svg" alt="person" />
+                            </div>
+                            <div>
+                                <h4 class="fs-primary-heading-400">Robert Name</h4>
+                                <p class="fs-sub-heading">Warsaw, Poland</p>
+                            </div>
+                            <div>
+                                <p>4.5 <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i></span></p>
+                            </div>
                         </div>
                         <div>
                             <p>
@@ -343,16 +368,135 @@
                     </div>
                 </div>
                 <div class="carousel-slide-buttons">
-                    <div>
+                    <div class="flex-justify-between margin-vertical-400">
                         <div>
-                            <p>Dot 1</p>
-                            <p>Dot 2</p>
-                            <p>Dot 3</p>
-                            <p>Dot 4</p>
+                            <p>----</p>
                         </div>
-                        <div>
-                            <div class="slie-left-btn">Left Arrow</div>
-                            <div class="slie-left-btn">Right Arrow</div>
+                        <div class="flex-justify-between">
+                            <div
+                                class="slie-left-btn padding-block-200 margin-horizontal-300 border-full w-25 center-content">
+                                <img src="/Images/left.svg" alt="left-arrow">
+                            </div>
+                            <div class="slie-left-btn padding-block-200 border-full w-25 center-content">
+                                <img src="/Images/left.svg" alt="left-arrow">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section>
+            <div class="container">
+                <div class="blaze-slider">
+                    <div class="blaze-container">
+                        <div class="blaze-track-container">
+                            <div class="blaze-track">
+                                <div class="padding-block-200 padding-inline-400 border-full margin-horizontal-300">
+                                    <div class="flex-container margin-vertical-400">
+                                        <div>
+                                            <img class="w-50" src="/Images/person.svg" alt="person" />
+                                        </div>
+                                        <div>
+                                            <h4 class="fs-primary-heading-400">Robert Name</h4>
+                                            <p class="fs-sub-heading">Warsaw, Poland</p>
+                                        </div>
+                                        <div>
+                                            <p>4.5 <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            “Wow... I am very happy to use this VPN, it
+                                            turned out to be more than my expectations
+                                            and so far there have been no problems.
+                                            LaslesVPN always the best”.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="padding-block-200 padding-inline-400 border-full margin-horizontal-300">
+                                    <div class="flex-container margin-vertical-400">
+                                        <div>
+                                            <img class="w-50" src="/Images/person.svg" alt="person" />
+                                        </div>
+                                        <div>
+                                            <h4 class="fs-primary-heading-400">Robert Name</h4>
+                                            <p class="fs-sub-heading">Warsaw, Poland</p>
+                                        </div>
+                                        <div>
+                                            <p>4.5 <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            “Wow... I am very happy to use this VPN, it
+                                            turned out to be more than my expectations
+                                            and so far there have been no problems.
+                                            LaslesVPN always the best”.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="padding-block-200 padding-inline-400 border-full margin-horizontal-300">
+                                    <div class="flex-container margin-vertical-400">
+                                        <div>
+                                            <img class="w-50" src="/Images/person.svg" alt="person" />
+                                        </div>
+                                        <div>
+                                            <h4 class="fs-primary-heading-400">Robert Name</h4>
+                                            <p class="fs-sub-heading">Warsaw, Poland</p>
+                                        </div>
+                                        <div>
+                                            <p>4.5 <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            “Wow... I am very happy to use this VPN, it
+                                            turned out to be more than my expectations
+                                            and so far there have been no problems.
+                                            LaslesVPN always the best”.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="padding-block-200 padding-inline-400 border-full margin-horizontal-300">
+                                    <div class="flex-container margin-vertical-400">
+                                        <div>
+                                            <img class="w-50" src="/Images/person.svg" alt="person" />
+                                        </div>
+                                        <div>
+                                            <h4 class="fs-primary-heading-400">Robert Name</h4>
+                                            <p class="fs-sub-heading">Warsaw, Poland</p>
+                                        </div>
+                                        <div>
+                                            <p>4.5 <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            “Wow... I am very happy to use this VPN, it
+                                            turned out to be more than my expectations
+                                            and so far there have been no problems.
+                                            LaslesVPN always the best”.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Navigation buttons -->
+
+                        <div class="flex margin-vertical-400">
+                            <div
+                                class="slide-left-btn padding-block-200 margin-horizontal-300 border-full w-25 center-content blaze-next">
+                                <img src="/Images/left.svg" alt="left-arrow">
+                            </div>
+                            <div class="slide-right-btn padding-block-200 border-full w-25 center-content blaze-prev">
+                                <img src="/Images/left.svg" alt="left-arrow">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -366,7 +510,8 @@
                     <div>
                         <h3 class="fs-primary-heading call_to_action">Subscribe Now for Get Special
                             Features!</h3>
-                        <p class="fs-sub-heading line-height-400">Let's subscribe with us and find the fun.</p>
+                        <p class="fs-sub-heading line-height-400">Let's subscribe with us and find the fun.
+                        </p>
                     </div>
                     <div>
                         <button class="button | secondary-button">Subscribe Now</button>
@@ -436,6 +581,7 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/blaze-slider@latest/dist/blaze-slider.dev.js"></script>
     <script src="/Js/app.js"></script>
 </body>
 

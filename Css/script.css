@@ -174,6 +174,10 @@ select {
     border-left: 2px solid var(--clr-accent-200);
 }
 
+.padding-block-200 {
+    padding-block: var(--size-200);
+}
+
 .padding-block-900 {
     padding-block: var(--size-900);
 }
@@ -182,7 +186,11 @@ select {
 }
 
 .padding-inline-200 {
-    padding: 0 var(--size-200);
+    padding-inline: var(--size-200);
+}
+
+.padding-inline-400 {
+    padding-inline: var(--size-400);
 }
 
 .padding-inline-800 {
@@ -460,4 +468,36 @@ body {
 
 .footer-nav a:is(:hover) {
     color: var(--clr-accent-400);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Space out items with equal space between */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.flex-container div:first-child {
+    margin-right: 18px; /* Keep the first div (image) on the left */
+}
+
+.flex-container div:nth-child(2) {
+    margin-right: auto; /* Align the second div (heading) to the left */
+}
+
+.flex-container div:last-child {
+    margin-left: auto; /* Push the third div (paragraph) to the right */
+}
+
+.card-carousel div:hover {
+    border-color: var(--clr-accent-400);
+    transition: 0.3s ease;
+}
+
+.slide-right-btn {
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.slide-left-btn {
+    cursor: pointer;
 }
